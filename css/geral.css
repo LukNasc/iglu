@@ -1,0 +1,66 @@
+.parallax{
+	background: url("../imagens/img_titulo.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	height: 600px;
+	width: 100%;
+
+}
+.icon{
+	width: 300px;
+	height: 300px;
+}
+.menu{
+	background-color:#4286f4;
+	width: 100%;
+	height: 65px;
+	margin-top: -20px;
+}
+.menu .itens{
+	width: 70%;
+}
+.itens li{
+	float: left;
+	list-style: none;
+	padding: 20px 40px;
+}
+.itens li:hover{
+	background-color: #3175e3;
+	cursor: pointer;
+}
+.input{
+	float: right;
+}
+.input input[type="search"]{
+	background: #3175e3;
+	border: none;
+	height: 65px;
+	width: 300px;
+	font-size: 40px;
+}
+.enviar{
+	border: none;
+	width: 65px;
+	height: 65px;
+	position: relative;
+}
+.formulario{
+	background:#3175e3;
+	padding: 20px;
+	border: 1px #000 solid;
+	border-radius: 10px;
+	height: 500px;
+}
+.formulario textarea{
+	resize: none;
+	width: 100%;
+	height: 150px;
+	font-size: 20px;
+	color: #000;
+	background:#fff;
+	border:none;
+}
+footer{
+	margin-top: 50px;
+	background-color: #3175e3;
+}
